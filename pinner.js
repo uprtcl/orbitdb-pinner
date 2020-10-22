@@ -4,6 +4,8 @@ const config = require('config')
 const OrbitPinner = require('./lib/OrbitPinner')
 const HttpServer = require('./lib/httpServer')
 
+process.setMaxListeners(0);
+
 const optionDefinitions = [
   { name: 'address', alias: 'd', type: String },
   { name: 'http', alias: 's', type: Boolean },
