@@ -1,4 +1,5 @@
 node_modules/
+bucket/
 orbitdb/
 .nyc_output
 *.code-workspace
